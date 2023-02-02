@@ -40,45 +40,40 @@ h1 {
     max-width: 1000px;
 }
 
-/* .container{
-    padding-top: 30px;
-    color: white;
-} */
 
+/* STRUCTURE OF FIRST ROW */
 .row {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 80px;
-    width: 1000px;
-    margin: auto;
+    width: 1040px;
+    margin: 50px auto;
 
 }
 
+
+/* STRUCTURE OF COLUMN OF FIRST ROW */
 .col {
     width: calc(100% / 3 );
     float: left;
     text-align: center;
-    
+    padding: 0 20px 0 20px;
 
 }
-.middle{
-    margin: 0 auto;
-}
-.third{
-    padding-right: 0;
-    margin-right: 0;
-}
 
+/* EMAIL TEXT */
 .email{
     color: rgb(72, 82, 221);
 }
 
+/* MAIN INFO OF WORKERS */
 .skill{
+    width: calc(100% - 80px);
     color: white;
     float: left;
     height: 80px;
     margin: 0 auto;
     padding: 0 20px 0 20px;
-    background-color: black;
+    background-color: rgb(17, 16, 16);
 }
 
 h3, h4, h5 {
